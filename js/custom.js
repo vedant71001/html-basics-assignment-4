@@ -13,25 +13,25 @@ function activeTab1(){
     tab1Btn.classList.add("active");
     tab2Btn.classList.remove("active");
     tab3Btn.classList.remove("active");
-    tab1Pane.classList.add('active');
-    tab2Pane.classList.remove('active');
-    tab3Pane.classList.remove('active');
+    tab1Pane.classList.add('show','active');
+    tab2Pane.classList.remove('show','active');
+    tab3Pane.classList.remove('show','active');
 }
 
 function activeTab2(){
     tab2Btn.classList.add("active");
     tab1Btn.classList.remove("active");
     tab3Btn.classList.remove("active");
-    tab2Pane.classList.add('active');
-    tab1Pane.classList.remove('active');
-    tab3Pane.classList.remove('active');
+    tab2Pane.classList.add('show','active');
+    tab1Pane.classList.remove('show','active');
+    tab3Pane.classList.remove('show','active');
 }
 
 function activeTab3(){
     tab3Btn.classList.add("active");
     tab2Btn.classList.remove("active");
     tab1Btn.classList.remove("active");
-    tab3Pane.classList.add('active');
-    tab2Pane.classList.remove('active');
-    tab1Pane.classList.remove('active');
+    tab3Pane.classList.add('show','active');
+    tab2Pane.classList.remove('show','active');
+    tab1Pane.classList.remove('show','active');
 }
