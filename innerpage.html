@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Innerpage</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="navbar">
+            <div class="col-lg-4 col-md-4 first-col">
+                <img src="./images/menu-bar.svg" alt="menu-button" id="menuButton" class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./images/header-logo.svg" alt="header-logo" id="header-logo">
+            </div>
+            <div class="col-lg-5 col-md-5 mid-col">
+                <p class="inlineText">
+                    <span><img src="./images/search-icon.svg" alt="search" id="searchIcon" for="search"></span>
+                    <input type="search" placeholder="Search" class="form-field" id="search">
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-3 right-col" id="navbarSupportedContent">
+                <img src="./images/notification-icon.svg" alt="notification" id="notificationIcon">
+                <span><img src="./images/profile.png" alt="profileImg" id="profileImg"></span>
+                <p class="inlineText" id="profileText">
+                    John Doe
+                </p>
+                <span><img src="./images/downward-arrow.svg" alt="arrow" id="arrowIcon"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 sidebar collapse" id="navbarToggleExternalContent">
+                <div class="sidebar-items">
+                    <span><img src="./images/dashboard-default.svg" alt="dashboardIcon" class="sidebarIcon"></span>
+                    <p class="inlineText">
+                        Dashboard
+                    </p>
+                </div>
+                <div class="sidebar-items selectedItem">
+                    <span><img src="./images/graph-active.svg" class="sidebarIcon"></span>
+                    <p class="inlineText">
+                        Analysis
+                    </p>
+                </div>
+                <div class="sidebar-items">
+                    <span><img src="./images/inbox-default.svg" class="sidebarIcon"></span>
+                    <p class="inlineText">
+                        Inbox
+                    </p>
+                </div>
+                <div class="sidebar-items">
+                    <span><img src="./images/clock-default.svg" class="sidebarIcon"></span>
+                    <p class="inlineText">
+                        History
+                    </p>
+                </div>
+                <div class="sidebar-items">
+                    <span><img src="./images/user-default.svg" class="sidebarIcon"></span>
+                    <p class="inlineText">
+                        Users
+                    </p>
+                </div>
+                <div class="sidebar-items">
+                    <span><img src="./images/maintenance-default.svg" class="sidebarIcon"></span>
+                    <p class="inlineText">
+                        Maintainance
+                    </p>
+                </div>
+                <div class="sidebar-items">
+                    <span><img src="./images/setting-default.svg" class="sidebarIcon"></span>
+                    <p class="inlineText">
+                        Settings
+                    </p>
+                </div>
+            </div>
+            <div class="col main-content">
+                <div class="page-title">
+                    <p>Analysis</p>
+                </div>
+                <div class="container-fluid row-custom">
+                    <div class="row">
+                        <p class="row-title">One Column</p>
+                        <div class="col">
+                            <input type="text" class="form-control form-field-custom" placeholder="Name">
+                            <select class="form-select form-field-custom">
+                                <option>Dropdown</option>
+                            </select>
+                            <textarea class="form-control text-area-custom" placeholder="Multiple Line"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="row-title">Two Columns</p>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control form-field-custom" placeholder="Name">
+                            <input type="password" class="form-control form-field-custom" placeholder="Password">
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control form-field-custom" id="username" value="johndoe">
+                                <label for="username">Username</label>
+                            </div>
+                            <select class="form-select form-field-custom">
+                                <option>Dropdown</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="row-title">Three Columns</p>
+                        <div class="col-sm-4">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control form-field-custom" id="focus" autofocus>
+                                <label for="focus">Focus</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control form-field-custom" id="password" value="1234567">
+                                <label for="password">Password</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control form-field-disabled" id="disabled" value="johndoe" disabled>
+                                <label for="disabled">Disabled</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="row-title">Four Columns</p>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control is-invalid form-field-custom" id="designation" value="UI Designer" style="margin-bottom: 0px;">
+                                <label for="designatioin">Designation</label>
+                                <div class="form-text form-text-invalid">Enter Valid data</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <input type="text" class="form-control form-field-custom" placeholder="Name" style="margin-bottom: 0px;">
+                            <div class="form-text form-text-custom">Enter your full Name as per ID</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control form-field-custom" id="username2" value="johndoe">
+                                <label for="username2">Username</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <select class="form-select form-field-custom">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="row-title">Other Design Elements</p>
+                        <div class="col">
+                            <div class="row">
+                                <p class="row-title-sm">File Upload</p>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                                    <button class="input-file-custom"><span><img src="./images/cloud-upload-icon.svg" style="margin-right: 5px;"></span>Upload</button>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                                    <p class="btn-side-text">No item Selected</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="row-title-sm">Radio Button</p>
+                                <div class="col">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="option1" value="option1">
+                                        <label class="form-check-label" for="option1">Option 1</label>
+                                      </div>
+                                      <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="option2" value="option2" checked>
+                                        <label class="form-check-label" for="option2">Option 2</label>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="row-title-sm">Checkbox</p>
+                                <div class="col">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="checkoption1" value="option1">
+                                        <label class="form-check-label" for="checkoption1">Option 1</label>
+                                      </div>
+                                      <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="checkoption2" value="option2" checked>
+                                        <label class="form-check-label" for="checkoption2">Option 2</label>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="row-title-sm">Snackbar</p>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <p class="error-msg">
+                                                <span><img src="./images/error-icon.svg" width="20px" height="20px"></span>
+                                                This is an error message
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p class="info-msg">
+                                                <span><img src="./images/info-icon.svg" width="20px" height="20px"></span>
+                                                This is an information message
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <p class="warn-msg">
+                                                <span><img src="./images/warning-icon.svg" width="20px" height="20px"></span>
+                                                This is an warinng message
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p class="success-msg">
+                                                <span><img src="./images/success-icon.svg" width="20px" height="20px"></span>
+                                                This is an success message
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="row-title-sm">Call to action</p>
+                                <div class="col">
+                                    <button class="btn-red">Primary</button>
+                                    <button class="btn-red-border">Secondary</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="row-title-sm">Tabs</p>
+                                <div class="col">
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                          <button class="nav-link active custom-tab" aria-current="page" href="#" id="tab1">Tab 1</button>
+                                        </li>
+                                        <li class="nav-item">
+                                          <button class="nav-link custom-tab" role="button" aria-expanded="false">Tab 2</button>
+                                        </li>
+                                        <li class="nav-item">
+                                          <button class="nav-link custom-tab">Tab 3</button>
+                                        </li>
+                                      </ul>
+                                      <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active content-tab" id="tab1-pane" role="tabpanel" aria-labelledby="tab1" tabindex="0">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

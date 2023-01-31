@@ -1,0 +1,1009 @@
+body
+{
+    background-color: #FAFAFA;
+}
+
+.main
+{
+    display: flex;
+    align-items: center;
+    margin: 0px 150px;
+}
+
+#indexPageImage
+{
+    position: relative;
+    top: 72px;
+    width: 576px;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    border-radius: 288px;
+    margin-left: 15px;
+}
+
+.img-div
+{
+    width: 580px;
+}
+
+.login-group
+{
+    margin-left: 163px;
+    position: relative;
+    top: 106px;
+}
+
+.login-page-logo
+{
+    width: 272px;
+    /* height: 58px; */
+}
+
+.login-group-header
+{
+    margin-top: 20px;
+    margin-bottom: 22px;
+    text-align: left;
+    font: normal normal 300 40px/47px Roboto;
+    color: #3E3E3E;
+}
+
+.login-header
+{
+    margin: 10px 0px;
+    padding: 0px;
+    text-align: left;
+    font: normal normal normal 25px/33px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}
+
+.form-field
+{
+    margin: 13.5px 0px;
+    padding: 15px 15px;
+    width: 429px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    font: normal normal normal 15px/20px Roboto;
+    color: #ADADAD;
+    border-radius: 5px;
+}
+
+::placeholder
+{
+    font: normal normal normal 15px/20px Roboto;
+    color: #ADADAD;
+}
+
+.expert
+{
+    color: #C8242F;
+    font-weight: 900;
+}
+
+.login-button
+{
+    margin-top: 17px;
+    margin-right: 160px;
+    margin-bottom: 23px;
+    width: 138px;
+    height: 45px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border: none;
+    font: normal normal normal 18px/24px Roboto;
+    color: #FFFFFF;
+    border-radius: 23px;
+    opacity: 1;
+}
+
+.normal-text
+{
+    font: normal normal normal 15px/20px Roboto;
+    color: #ADADAD;
+    text-decoration: none;
+}
+
+.registerHere
+{
+    text-decoration: none;
+    font: normal normal normal 15px/20px Roboto;
+    color: #C8242F;
+}
+
+#menuButton
+{
+    margin-left: 29px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.navbar-toggler-custom
+{
+    border: none !important;
+}
+
+#header-logo
+{
+    margin: 25px;
+    margin-right: 60px;
+}
+
+#searchIcon
+{
+    width: 16px;
+    height: 16px;
+    margin: 32px 0px;
+}
+
+.inlineText ::placeholder
+{
+    font: normal normal normal 16px/21px Roboto;
+    color: #000000;
+}
+
+.inlineText > .form-field
+{
+    border: none;
+}
+
+.right-col
+{
+    text-align: right;
+}
+
+.inlineText
+{
+    display: inline;
+    font: normal normal normal 16px/21px Roboto;
+}
+
+#notificationIcon
+{
+    margin: 30px 30px;
+}
+
+#profileImg
+{
+    margin: 30px 12px;
+}
+
+#arrowIcon
+{
+    margin: 0px 15px;
+}
+
+.main-content
+{
+    background-color: #FAFAFA;
+}
+
+.sidebarIcon
+{
+    width: 15px;
+    height: 15px;
+}
+
+.sidebar-items
+{
+    width: 183px;
+    height: 43px;
+    padding: 10px 18px;
+    font: normal normal normal 16px/21px Roboto;
+    color: #3E3E3E;
+    margin: 10px 30px;
+}
+
+.selectedItem
+{
+    background: #FFF3F4 0% 0% no-repeat;
+    border-radius: 5px;
+    color: #C8242F;
+}
+
+.page-title
+{
+    font: normal normal normal 30px/39px Roboto;
+    margin-left: 48px;
+    margin-top: 40px;
+}
+
+.r1
+{
+    margin-left: 50px !important;
+    margin-top: 23px !important;
+}
+
+.c1
+{
+    height: 116px;
+    background-color: #FFFFFF;
+    padding: 20px 10px;
+    margin-right: 15px !important;
+    border-radius: 5px;
+}
+
+.info-text
+{
+    font: normal normal 600 25px/33px Roboto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: #3E3E3E;
+}
+
+p.info-text
+{
+    font: normal normal normal 15px/20px Roboto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.info-img
+{
+    margin: 15px 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.graph-col
+{
+    background-color: #FFFFFF;
+    margin-right: 27px;
+    border-radius: 5px;
+    width: 710px !important;
+}
+
+.graph-title
+{
+    font: normal normal 600 22px/29px Roboto;
+    color: #3E3E3E;
+    margin-left: 29px;
+    margin-top: 24px;
+}
+
+.graph-btn
+{
+    width: max-content;
+    border: none;
+    padding: 9px 0px;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 15px;
+    font: normal normal normal 12px/16px Roboto;
+    color: #ADADAD;
+}
+
+.btn-selected
+{
+    font: normal normal normal 12px/16px Roboto;
+    color: #C8242F;
+    border-bottom:  solid 2px #C8242F;
+}
+
+
+
+.graph-img
+{
+    margin-top: 10px;
+    margin-left: 25px;
+    max-width: 650px;
+    /* display: none; */
+}
+
+.img-container
+{
+    text-align: center;
+}
+
+.graph-legend
+{
+    font: normal normal normal 13px/20px Roboto;
+    color: #3E3E3E;
+}
+
+.graph-legend-img
+{
+    width: 36px;
+    height: 36px;
+}
+
+.row-custom
+{
+    margin-left: 50px !important;
+    margin-top: 23px !important;
+    background-color: #FFFFFF;
+    max-width: 1150px !important;
+    border-radius: 5px;
+}
+
+.right-align
+{
+    text-align: end;
+}
+
+#viewAll
+{
+    font: normal normal normal 12px/16px Roboto;
+    border: none;
+    color: #C8242F;
+    background-color: #FFFFFF;
+    margin-left: 29px;
+    margin-top: 24px;
+    margin-right: 16px;
+}
+
+.header-row
+{
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 1.5px;
+    color: #ADADAD;
+}
+
+.table-custom
+{
+    margin-left: 29px;
+    margin-right: 16px;
+}
+
+.table-body
+{
+    font: normal normal normal 15px/20px Roboto;
+    color: #3E3E3E;
+}
+
+.paid
+{
+    background-color: #EBFFEF;
+    border-radius: 5px;
+    width: 50px;
+    height: 26px;
+    text-align: center;
+    color: #3CDD5F;
+    padding: 2px 0px;
+}
+
+.failed
+{
+    background-color: #FFF5F5;
+    border-radius: 5px;
+    width: 60px;
+    height: 26px;
+    text-align: center;
+    color: #FF4545;
+    padding: 2px 0px;
+}
+
+.pending
+{
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    width: 75px;
+    height: 26px;
+    text-align: center;
+    color: #BABABA;
+    padding: 2px 0px;
+}
+
+/* Innerpage CSS */
+
+.container-fluid.row-custom{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.form-field-custom
+{
+    min-width: 100%;
+    height: 49px !important;
+    margin-bottom: 21px;
+}
+
+.form-field-custom::placeholder
+{
+    color: #ADADAD !important;
+}
+
+.row-title
+{
+    font: normal normal 600 22px/29px Roboto;
+    color: #3E3E3E;
+    margin-top: 23px !important;
+}
+
+.row-title-sm
+{
+    font: normal normal 600 18px/24px Roboto;
+    color: #3E3E3E;
+    margin-top: 6px !important;
+}
+
+.text-area-custom
+{
+    min-width: 100%;
+    height: 130px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 15px !important;
+    margin-bottom: 21px;
+}
+
+.text-area-custom::placeholder
+{
+    color: #ADADAD !important;
+}
+
+.form-field-disabled
+{
+    min-width: 100%;
+    height: 49px !important;
+    margin-bottom: 21px;
+    background-color: #FFFFFF !important;
+    border: 1px dashed #ADADAD !important ;
+    color: #ADADAD !important;
+}
+
+.form-text-custom
+{
+    font: normal normal normal 12px/16px Roboto;
+    color: #ADADAD !important;
+    margin-left: 17px;
+    margin-bottom: 5px;
+}
+
+.form-text-invalid
+{
+    font: normal normal normal 12px/16px Roboto;
+    color: #FF3B3B !important;
+    margin-left: 17px;
+}
+
+.input-file-custom
+{
+    width: 124px !important;
+    height: 36px;
+    border: 1px solid #C8242F;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    color: #C8242F;
+    margin-bottom: 24px;
+}
+
+.btn-side-text
+{
+    display: inline;
+    font: normal normal normal 12px/16px Roboto;
+    color: #ADADAD;
+    /* margin-left: 50px; */
+}
+
+.form-check-input:checked 
+{
+    background-color: #C8242F !important;
+    border-color: #C8242F !important;
+    margin-bottom: 28px;
+}
+
+.error-msg
+{
+    width: 100%;
+    height: 44px;
+    border: 1px solid #FF3535;
+    border-radius: 5px;
+    color: #C8242F;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.warn-msg
+{
+    width: 100%;
+    height: 44px;
+    border: 1px solid #FFA800;
+    border-radius: 5px;
+    color: #FFA800;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.info-msg
+{
+    width: 100%;
+    height: 44px;
+    border: 1px solid #00B9E1;
+    border-radius: 5px;
+    color: #00B9E1;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.success-msg
+{
+    width: 100%;
+    height: 44px;
+    border: 1px solid #00AF27;
+    border-radius: 5px;
+    color: #00AF27;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.btn-red
+{
+    width: 124px;
+    height: 45px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    border: none;
+    font: normal normal 500 18px/24px Roboto;
+    color: #FFFFFF;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-red-border
+{
+    width: 145px;
+    height: 44px;
+    border: 1px solid #C8242F;
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    font: normal normal 600 18px/24px Roboto;
+    color: #C8242F;
+    margin-bottom: 20px;
+
+}
+
+.custom-tab
+{
+    font: normal normal normal 15px/20px Roboto;
+    color: #ADADAD !important;
+}
+
+.active.custom-tab
+{
+    font: normal normal 600 15px/20px Roboto;
+    color: #C8242F !important;
+    border: none !important;
+    border-bottom: solid 3px #C8242F !important;
+}
+
+.content-tab
+{
+    font: normal normal normal 15px/24px Roboto;
+    color: #3E3E3E;
+    margin-top: 26px;
+    margin-bottom: 37px;
+    margin-right: 10px;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 1399px) {
+    
+    #indexPageImage{
+        width: 120%;
+        border: 15px solid #FFFFFF;
+    }
+
+    .img-div{
+        width: 550px;
+    }
+
+    .login-group-header{
+        font: normal normal 300 30px/37px Roboto;
+    }
+
+    .login-header{
+        font: normal normal normal 20px/28px Roboto;
+    }
+
+    .login-page-logo{
+        width: 40%;
+    }
+
+    .login-button{
+        margin-right: 160px;
+    }
+
+    #notificationIcon
+    {
+        margin: 30px 20px;
+    }
+
+    #profileImg
+    {
+        margin: 30px 8px;
+    }
+
+    #arrowIcon
+    {
+        margin: 0px 10px;
+    }
+
+    .sidebar-items
+    {
+        width: 160px;
+        margin: 10px;
+        font: normal normal normal 13px/18px Roboto;
+    }
+
+    .info-text
+    {
+        font: normal normal 600 23px/31px Roboto;
+    }
+
+    p.info-text
+    {
+        font: normal normal normal 14px/19px Roboto;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .info-img
+    {
+        margin: 10px 0px;
+        width: 30px;
+    }
+
+    .info-text
+    {
+        font: normal normal 600 20px/28px Roboto;
+        margin-left: 0px;
+    }
+
+    p.info-text
+    {
+        font: normal normal normal 12px/17px Roboto;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    
+    #indexPageImage{
+        width: 120%;
+        border: 10px solid #FFFFFF;
+    }
+
+    .login-group-header{
+        font: normal normal 300 28px/35px Roboto;
+    }
+
+    .login-header{
+        font: normal normal normal 20px/28px Roboto;
+    }
+
+    .login-page-logo{
+        width: 40%;
+    }
+
+    .form-field{
+        width: 359px;
+        height: 35px;
+        margin: 8px 0px;
+    }
+
+    .login-button{
+        width: 125px;
+        height: 40px;
+        margin-right: 100px;
+        font: normal normal normal 15px/21px Roboto;
+    }
+
+    .img-div{
+        width: 450px;
+    }
+
+    #notificationIcon
+    {
+        margin: 30px 15px;
+    }
+
+    #profileImg
+    {
+        margin: 30px 8px;
+    }
+
+    #arrowIcon
+    {
+        margin: 0px 5px;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .main{
+        display: block;
+        margin: 0px 125px;
+    }
+
+    #indexPageImage{
+        width: 100%;
+    }
+
+    .login-group{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .inlineText > .form-field
+    {
+        width: 90%;
+    }
+
+    #notificationIcon
+    {
+        margin: 30px 10px;
+    }
+
+    #profileImg
+    {
+        margin: 30px 6px;
+    }
+
+    #arrowIcon
+    {
+        margin: 0px 0px;
+    }
+
+    #header-logo{
+        margin-left: 10px;
+        width:40%;
+    }
+
+    #profileText{
+        font: normal normal normal 13px/18px Roboto;
+    }
+
+    #menuButton{
+        margin-left: 0px;
+    }
+
+    
+}
+
+
+@media screen and (max-width:992px) {
+    .info-img
+    {
+        margin: 0px 0px;
+        width: 40px;
+    }
+
+    .info-text
+    {
+        font: normal normal 600 18px Roboto;
+        margin-left: 0px;
+    }
+
+    p.info-text
+    {
+        font: normal normal normal 12px/15px Roboto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .info-img
+    {
+        margin: 0px 0px;
+        width: 28px;
+    }
+
+    .info-text
+    {
+        font: normal normal 600 17px/25px Roboto;
+        margin-left: 5px;
+    }
+
+    p.info-text
+    {
+        font: normal normal normal 12px/17px Roboto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main{
+        display: block;
+        margin: 0px 100px;
+    }
+
+    .img-div{
+        width: 100%;
+    }
+
+    #indexPageImage{
+        width: 100%;
+    }
+
+    .login-group{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    .login-button{
+        width: 115px;
+        height: 38px;
+        margin-right: 90px;
+        font: normal normal normal 15px/21px Roboto;
+    }
+    
+    .login-page-logo{
+        width: 50%;
+    }
+
+    .login-group-header{
+        font: normal normal 300 25px/32px Roboto;
+    }
+
+    .login-header{
+        font: normal normal normal 20px/28px Roboto;
+    }
+
+    .first-col{
+        width: 220px;
+    }
+
+    .mid-col{
+        width: 200px
+    }
+
+    #profileText{
+        display: none;
+    }
+
+    #notificationIcon
+    {
+        margin: 20px 5px;
+        width: 20%;
+    }
+
+    #profileImg
+    {
+        margin: 30px 0px;
+        width: 30px;
+    }
+
+    #arrowIcon
+    {
+        margin: 0px 0px;
+    }
+
+    #header-logo{
+        margin-left: 10px;
+        width:50%;
+        margin-right: 0px;
+    }
+
+    #menuButton{
+        margin-left: 0px;
+    }
+
+    .error-msg
+    {
+        padding-top: 11px;
+        font-size: 13px;
+    }
+
+    .warn-msg
+    {
+        padding-top: 11px;
+        font-size: 13px;
+    }
+
+    .info-msg
+    {
+        padding-top: 11px;
+        font-size: 13px;
+    }
+
+    .success-msg
+    {
+        padding-top: 11px;
+        font-size: 13px;
+    }
+
+    .container-fluid.row-custom{
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (max-width: 545px) and (min-width: 360px) {
+    .main{
+        display: block;
+        margin: 0px 75px;
+    }
+
+    .img-div{
+        width: 100%;
+    }
+
+    #indexPageImage{
+        width: 100%;
+    }
+
+    .login-page-logo{
+        width: 65%;
+    }
+
+    .login-group{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .login-group-header{
+        font: normal normal 300 22px/30px Roboto;
+    }
+
+    .login-header{
+        font: normal normal normal 18px/26px Roboto;
+    }
+
+    .form-field{
+        width: 95%;
+        max-width: 300px;
+    }
+
+    .login-button{
+        width: 115px;
+        height: 38px;
+        margin-right: 50px;
+        font: normal normal normal 15px/21px Roboto;
+    }
+
+    .normal-text{
+        display: block;
+    }
+
+    
+    .first-col{
+        width: 150px;
+    }
+
+    .mid-col{
+        width: 100px
+    }
+    .mid-col .form-field{
+        width: 40%;
+        min-width: 65px;
+        padding: 5px;
+    }
+
+    .mid-col .form-field::placeholder{
+        font-size: 13px;
+    }
+
+    #menuButton{
+        padding: 0px;
+    }
+
+    #profileText{
+        display: none;
+    }
+
+    #notificationIcon
+    {
+        margin: 20px 0px;
+        width: 18%;
+    }
+
+    #header-logo{
+        margin: 1px;
+    }
+
+    .navbar{
+        padding: 0px !important;
+    }
+
+    .c1
+    {
+        height: 116px;
+        background-color: #FFFFFF;
+        padding: 10px 10px;
+        margin-right: 2px !important;
+        border-radius: 5px;
+    }
+}
