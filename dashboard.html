@@ -11,23 +11,29 @@
 <body>
     <div class="container-fluid">
         <div class="navbar">
-            <div class="col-lg-4 col-md-4 first-col">
+            <div class="col-md-4 first-col">
                 <img src="./images/menu-bar.svg" alt="menu-button" id="menuButton" class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" data-toggle="tooltip" title="Click to toggle sidebar">
                 <img src="./images/header-logo.svg" alt="header-logo" id="header-logo">
             </div>
-            <div class="col-lg-5 col-md-5 mid-col">
+            <div class="col-md-5 mid-col">
                 <p class="inlineText">
                     <span><img src="./images/search-icon.svg" alt="search" id="searchIcon" for="search"></span>
                     <input type="search" placeholder="Search" class="form-field" id="search">
                 </p>
             </div>
-            <div class="col-lg-3 col-md-3 right-col" id="navbarSupportedContent">
+            <div class="col-md-3 right-col" id="navbarSupportedContent">
                 <img src="./images/notification-icon.svg" alt="notification" id="notificationIcon">
-                <span><img src="./images/profile.png" alt="profileImg" id="profileImg"></span>
-                <p class="inlineText" id="profileText">
-                    John Doe
-                </p>
-                <span><img src="./images/downward-arrow.svg" alt="arrow" id="arrowIcon"></span>
+                <button class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span><img src="./images/profile.png" alt="profileImg" id="profileImg"></span>
+                    <p class="inlineText" id="profileText">
+                        John Doe
+                    </p>
+                    <span><img src="./images/downward-arrow.svg" alt="arrow" id="arrowIcon"></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a href="./innerpage.html" class="dropdown-item">My Profile</a></li>
+                    <li><a href="./index.html" class="dropdown-item">Log Out</a></li>
+                </ul>
             </div>
         </div>
         <div class="row">
@@ -139,11 +145,11 @@
                     </div>
                     <div class="row r1">
                         <div class="col graph-col">
-                            <div class="row">
-                                <div class="col-8">
+                            <div class="graph-title-row">
+                                <div class="col">
                                     <p class="graph-title">Sale</p>
                                 </div>
-                                <div class="col-4">
+                                <div class="col">
                                     <button class="graph-btn">Weekly</button>
                                     <button class="graph-btn">Monthly</button>
                                     <button class="graph-btn btn-selected">Yearly</button>
@@ -203,7 +209,7 @@
                                     <p class="graph-title">Invoice</p>
                                 </div>
                                 <div class="col right-align">
-                                    <button id="viewAll">View All</button>
+                                    <a id="viewAll" href="#">View All</a>
                                 </div>
                             </div>
                             <div class="row">

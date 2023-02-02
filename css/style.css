@@ -23,7 +23,7 @@ body
 
 .img-div
 {
-    width: 580px;
+    width: 40%;
 }
 
 .login-group
@@ -91,10 +91,14 @@ body
     height: 45px;
     background: #C8242F 0% 0% no-repeat padding-box;
     border: none;
-    font: normal normal normal 18px/24px Roboto;
-    color: #FFFFFF;
     border-radius: 23px;
     opacity: 1;
+}
+
+.login-button a{
+    font: normal normal normal 18px/24px Roboto;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .normal-text
@@ -150,6 +154,15 @@ body
 .right-col
 {
     text-align: right;
+}
+
+.right-col button{
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.right-col button::after{
+    display: none;
 }
 
 .inlineText
@@ -255,6 +268,11 @@ p.info-text
     width: 710px !important;
 }
 
+.graph-title-row{
+    display: flex;
+    justify-content: space-between;
+}
+
 .graph-title
 {
     font: normal normal 600 22px/29px Roboto;
@@ -289,7 +307,6 @@ p.info-text
     margin-top: 10px;
     margin-left: 25px;
     max-width: 650px;
-    /* display: none; */
 }
 
 .img-container
@@ -321,6 +338,7 @@ p.info-text
 .right-align
 {
     text-align: end;
+    padding-top: 20px;
 }
 
 #viewAll
