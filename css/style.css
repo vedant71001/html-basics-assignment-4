@@ -220,6 +220,7 @@ body
     background-color: #FFFFFF;
     padding: 20px 10px;
     margin-right: 15px !important;
+    margin-top: 10px !important;
     border-radius: 5px;
 }
 
@@ -584,12 +585,12 @@ p.info-text
 @media screen and (max-width: 1399px) {
     
     #indexPageImage{
-        width: 120%;
+        width: 100%;
         border: 15px solid #FFFFFF;
     }
 
     .img-div{
-        width: 550px;
+        width: 100%;
     }
 
     .login-group-header{
@@ -664,7 +665,7 @@ p.info-text
 @media screen and (max-width: 1199px) {
     
     #indexPageImage{
-        width: 120%;
+        width: 100%;
         border: 10px solid #FFFFFF;
     }
 
@@ -693,9 +694,9 @@ p.info-text
         font: normal normal normal 15px/21px Roboto;
     }
 
-    .img-div{
+    /* .img-div{
         width: 450px;
-    }
+    } */
 
     #notificationIcon
     {
@@ -722,7 +723,12 @@ p.info-text
     }
 
     #indexPageImage{
+        width: 80%;
+    }
+
+    .img-div{
         width: 100%;
+        text-align: center;
     }
 
     .login-group{
@@ -763,6 +769,10 @@ p.info-text
         margin-left: 0px;
     }
 
+    .c1{
+        height: 130px;
+    }
+
     
 }
 
@@ -790,7 +800,6 @@ p.info-text
     .info-img
     {
         margin: 0px 0px;
-        width: 28px;
     }
 
     .info-text
@@ -803,6 +812,22 @@ p.info-text
     {
         font: normal normal normal 12px/17px Roboto;
     }
+
+    #profileText{
+        display: none;
+    }
+
+    .c1{
+        height: fit-content;
+    }
+
+    .r1{
+        margin-left: 20px !important;
+    }
+
+    .row-custom{
+        margin-left: 20px !important;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -811,12 +836,8 @@ p.info-text
         margin: 0px 100px;
     }
 
-    .img-div{
-        width: 100%;
-    }
-
     #indexPageImage{
-        width: 100%;
+        width: 85%;
     }
 
     .login-group{
@@ -851,9 +872,6 @@ p.info-text
         width: 200px
     }
 
-    #profileText{
-        display: none;
-    }
 
     #notificationIcon
     {
@@ -917,12 +935,8 @@ p.info-text
         margin: 0px 75px;
     }
 
-    .img-div{
-        width: 100%;
-    }
-
     #indexPageImage{
-        width: 100%;
+        width: 90%;
     }
 
     .login-page-logo{
@@ -998,12 +1012,22 @@ p.info-text
         padding: 0px !important;
     }
 
-    .c1
+    .r1{
+        display: block !important;
+    }
+    .info-img
     {
-        height: 116px;
-        background-color: #FFFFFF;
-        padding: 10px 10px;
-        margin-right: 2px !important;
-        border-radius: 5px;
+        margin-top: 10px;
+        width: 40px;
+    }
+    .info-text
+    {
+        font: normal normal 600 25px/32px Roboto;
+        margin-left: 5px;
+    }
+
+    p.info-text
+    {
+        font: normal normal normal 15px/17px Roboto;
     }
 }
